@@ -1,7 +1,15 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
-
+/*
+ * This function (The Main Function)
+ * does not take in any parameters but has a list that holds the C's that we are testing a
+ * This function displays  the different memory characteristics such as ( size of page, Virtual Memory, as well as the physical Memory
+ * before the computation and during the computation).
+ * This function also carries out a simple computation to demonstrate the influence of VMM based on the C
+ * and calculates the timing of each C*M
+ *
+ * */
 
 int main() {
     clock_t start;
